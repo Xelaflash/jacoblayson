@@ -1,0 +1,95 @@
+/* Main navbar */
+.navbar-top {
+  background: #000000;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Right section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+/* Basic navbar item */
+.navbar-item {
+  cursor: pointer;
+  padding: 0 40px;
+}
+
+.navbar-item-xs {
+  padding: 0;
+}
+
+/* Navbar link */
+.navbar-link {
+  color: $light-gray;
+  font-size: 16px;
+  font-family: $headers-font;
+}
+.navbar-link:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Dropdown menu */
+.navbar-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-family: $body-font;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+.fa-bars {
+  color: white;
+  cursor: pointer;
+}
+
+.fa-facebook-square {
+  color: white;
+  cursor: pointer;
+  font-size: 28px;
+  padding-right: 20px;
+}
+.fa-instagram {
+  color: white;
+  cursor: pointer;
+  font-size: 28px;
+  padding-left: 15px;
+}
