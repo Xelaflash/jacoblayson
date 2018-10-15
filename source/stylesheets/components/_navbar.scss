@@ -15,11 +15,17 @@
   justify-content: space-between;
 }
 
-.navbar-left {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 30px;
+.logo {
+  margin-left:30px;
+  .logo-text {
+    color:white;
+    margin:0;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 32px;
+  }
+  .logo-text:hover {
+    text-decoration: none;
+  }
 }
 
 /* Basic navbar item */
