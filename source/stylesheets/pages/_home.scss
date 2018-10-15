@@ -16,7 +16,6 @@
   h1 {
     margin-bottom: 80px;
     margin-top: 0;
-    font-size: 65px;
   }
 }
 
@@ -30,6 +29,7 @@
 }
 
 .btn-contact {
+  cursor: pointer;
   background-color: black;
   color: white;
   border: 1px solid white;
