@@ -1,5 +1,9 @@
+---
+title: Jacob Layson Music - Contact
+---
+
 <div class="container" id="contact-page">
-  <h1 class="main-title page-title text-center">Contact me</h1>
+  <h1 class="page-title text-center">Contact me</h1>
   <hr class="sep">
 
   <div class="contact col-xs-12">
@@ -13,7 +17,7 @@
             <h6 class="sub-title-contact">Phone</h6>
           </div>
         </div>
-        <p class="main-text-contact"><a href="tel:+33642225711">+33 6 42 22 57 11</a></p>
+        <p class="main-text-contact"><a href="tel:+33642225711">+1 (246) xxx-xxxx</a></p>
       </div>
       <hr class="sep">
       <div class="mail">
@@ -25,12 +29,30 @@
             <h6 class="sub-title-contact">E-mail</h6>
           </div>
         </div>
-        <p><a class="main-text-contact" href="mailto:contact@lacabanedemaii.com">contact@lacabanedemaii.com</a></p>
+        <p><a class="main-text-contact" href="mailto:xxxxx.xxxxx@gmail.com">xxxxx.xxxxx@gmail.com</a></p>
       </div>
     </div>
 
     <div class="contact-right col-xs-12 col-lg-6 col-lg-offset-1">
-    </div>
-  </div>
 
+      <!-- DO NOT FORGET TO MODIFY ADRESS FOR PROD -->
+      <form class="form-contact" action="http://formspree.io/xxxxx.xxxxx@gmail.com" method="post">
+        <div class="form-group">
+           <label for="contact-form-email">Email</label>
+           <input type="email" class="form-control" id="contact-form-email" name="_replyto" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="subject" name="_subject" class="form-control" placeholder="Subject" />
+        </div>
+        <div class="form-group">
+          <label for="contact-message">Text</label>
+          <textarea class="form-control" name="body" id="contact-message" rows="3" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2" value="Send">Send Email</button>
+      </form>
+    </div>
+
+
+  </div>
 </div>
