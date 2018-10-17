@@ -1,8 +1,7 @@
 #gallery-page {
-  // min-height: calc(100vh - 150px);
-  margin-bottom:30px;
+  margin-bottom:60px;
   h1 {
-    margin: 40px 0;
+    margin: 60px 0 40px 0;
   }
 }
 #photos {
@@ -15,7 +14,7 @@
   column-gap:           15px;
 }
 
-#photos:hover img {
+#photos:hover img,  #photos:hover iframe {
 transform: scale(0.7);
 filter: blur(4px);
 }
@@ -42,7 +41,7 @@ filter: blur(4px);
     left: 0;
 }
 
-#photos img:hover, .vid-container:hover {
+#photos img:hover, #photos iframe:hover {
   transform: scale(1);
   filter: blur(0);
   margin: 40px 0px;

@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 0 15px #FFFFFF;
 }
 
 /* Right section */
@@ -20,7 +21,7 @@
   .logo-text {
     color:white;
     margin:0;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: $headers-font;
     font-size: 32px;
   }
   .logo-text:hover {
@@ -30,7 +31,6 @@
 
 /* Basic navbar item */
 .navbar-item {
-  cursor: pointer;
   padding: 0 40px;
 }
 
@@ -40,14 +40,28 @@
 
 /* Navbar link */
 .navbar-link {
-  color: $light-gray;
-  font-size: 16px;
+  color: white;
+  font-size: 22px;
   font-family: $headers-font;
+  cursor: pointer;
 }
 .navbar-link:hover {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+.navbar-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffff00;
+    transition: width .3s;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
 }
 
 /* Dropdown menu */

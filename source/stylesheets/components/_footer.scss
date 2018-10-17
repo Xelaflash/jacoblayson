@@ -3,9 +3,12 @@
   height: 70px;
   width: 100%;
   color:white;
+  box-shadow: 0 -4px 6px -4px #FFFFFF;
   position: absolute;
   p {
     margin: 0 10px;
+    font-family: $headers-font;
+    font-size: 27px;
   }
 }
 .footer-links {
