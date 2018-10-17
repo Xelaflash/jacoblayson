@@ -1,0 +1,47 @@
+#events-page {
+  min-height: calc(100vh - 150px);
+}
+
+#events-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+  h2 {
+    margin: 0 0 50px 0;
+  }
+  ul {
+    list-style: none;
+    padding-left:0;
+  }
+  li {
+    margin-bottom: 40px;
+  }
+}
+.gigs {
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: flex-start;
+  // margin-right:60px;
+}
+
+.gigs-left {
+  // border-right: 1px solid white;
+}
+
+.venue {
+  line-height: 1.2;
+}
+
+.fa-music {
+  padding-right:15px;
+}
+
+.gigs-right {
+  // padding-left: 45px;
+}
+
+.pic-section img {
+  margin-bottom: 20px;
+  border: 7px solid white;
+}
