@@ -1,12 +1,11 @@
 .footer_xela {
   background:black;
-  height: 70px;
+  height: 60px;
   width: 100%;
   color:white;
   box-shadow: 0 -4px 6px -4px #FFFFFF;
-  position: absolute;
   p {
-    margin: 0 10px;
+    margin:0;
     font-family: $headers-font;
     font-size: 27px;
   }
@@ -15,29 +14,28 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-right:60px;
+  margin-right:70px;
 }
 .footer-links a {
   color: white;
   text-decoration: none;
   font-size: 18px;
-  width: 55px;
-  height:55px;
+  width: 50px;
+  height:50px;
   border-radius: 50%;
   border: 1px solid white;
   text-align: center;
-  padding: 13px;
-  margin: 13px;
+  padding: 12px;
+  margin: 10px;
 }
 .footer-links a:hover {
-  transform: scale(1.1);
   box-shadow: 0 0 15px #FFFFFF;
 }
 
 .fa-facebook-square {
   color: white;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 22px;
 }
 #link-fb:hover {
   background: #3a5998;
@@ -47,7 +45,7 @@
 .fa-instagram {
   color: white;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 #link-insta:hover {
