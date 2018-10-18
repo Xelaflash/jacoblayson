@@ -32,7 +32,7 @@
   box-shadow: 0 0 15px #FFFFFF;
 }
 
-.fa-facebook-square {
+.fa-facebook-square, .fa-instagram, .fa-youtube {
   color: white;
   cursor: pointer;
   font-size: 22px;
@@ -42,13 +42,12 @@
   border: none;
 }
 
-.fa-instagram {
-  color: white;
-  cursor: pointer;
-  font-size: 22px;
+#link-insta:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  border: none;
 }
 
-#link-insta:hover {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+#link-youtube:hover {
+  background: #ff0000;
   border: none;
 }
