@@ -1,6 +1,6 @@
 #contact-page {
-    min-height: calc(100vh - 150px);
-    margin-bottom:10px;
+  min-height: calc(100vh - 150px);
+  margin-bottom:10px;
 }
 
 #booking-text {
@@ -17,7 +17,7 @@
 
 @media(min-width: 1200px) {
   .contact {
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom:30px;
@@ -38,7 +38,6 @@
 
 .phone, .mail {
   margin: 25px 15px;
-  // line-height: 2em;
 }
 
 .phone-flex, .mail-flex {
@@ -59,10 +58,10 @@
 }
 
 .contact-right {
-    background: white;
-    padding: 40px;
-    border-radius:4px;
-    box-shadow: 8px 6px 22px rgba(255, 255, 255, 0.6), 0px 9px 13px rgba(255, 255, 255, 0.6);
+  background: white;
+  padding: 40px;
+  border-radius:4px;
+  box-shadow: 8px 6px 22px rgba(255, 255, 255, 0.6), 0px 9px 13px rgba(255, 255, 255, 0.6);
 }
 
 .form-contact {
